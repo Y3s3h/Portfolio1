@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://www.vectorlogo.zone/logos/nodejs/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Node.js SVG Vector Logos - Vector Logo Zone</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" />-->
+	<link rel="stylesheet" href="./node_files/bootstrap.min.css">
+	<link href="./node_files/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+	<meta name="theme-color" content="#2c3e50">
+	<noscript>
+		<style>
+			.scriptonly {
+				display: none !important;
+			}
+		</style>
+	</noscript>
+	<style>
+
+	/* faded border around logos in lists */
+	.logo-container img {
+		box-shadow: 0 0 5px #1d1d1d;
+		border: solid #ccc 1px;
+		margin: 6px;
+	}
+
+	.card-footer {
+		background-color: inherit;
+		border-top: 0;
+	}
+
+	.navbar-brand {
+		font-weight: bold;
+	}
+
+	.nav-link {
+		font-weight: bold;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		color: white;
+	}
+
+	.navbar-logo { height:31px;margin-top:-8px;padding-top:8px;padding-right:8px; }
+
+	h1 {
+		margin-top: 21px;
+	}
+
+	/* optional padding on visual inventory */
+	.padded { padding: 5px; }
+	.maxsize { max-width: 120px; max-height: 120px; }
+	.ar21 { height: 60px; width: 120px; }
+
+	/* hide outline on a clicked tab */
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+		outline: 0;
+	}
+
+	/* external nav links on logo pages */
+	.icon-link {
+	color: #888;
+	margin-top: 10px;
+	margin-right: 5px;
+	padding: 8px;
+	}
+
+	/* shareing buttons on logo pages */
+	.sharelogo {
+		margin: 6px;
+		width: 32px;
+	}
+
+	/* search buttons */
+	.searchlogo {
+		margin: 6px;
+		width: 32px;
+	}
+
+	/* seems like a Bootstrap bug (or incompatibility with FontAwesome) */
+	.carousel-control { padding-top: 25%; }
+
+	/* bootswatch ugliness */
+	.alert-info a { color: white; text-decoration: underline; }
+
+	/* share buttons need plain backgrounds */
+	.btn-share {
+	background-color: #fff;
+	border-color: #ccc;
+	border-width: 1px;
+	padding: 4px 4px 0 4px;
+	margin-left: 5px;
+	}
+	.preview-color {
+		height: 30px;
+		width: 45px;
+		display: inline-block;
+		border: 1px solid #a2a2a2;
+		border-radius: 4px;
+		vertical-align: middle;
+		margin-left: 10px;
+	}
+
+	.social-footer {
+		margin-left: 8px;
+		margin-right: 8px;
+		vertical-align:middle;
+		width:20px;
+	}
+	.copy2tip { display: none; }
+
+	a {
+		/* WAVE doesn't like bootstrap default #007bff */
+		color: #003bbf;
+	}
+
+
+	</style>
+	<script type="text/javascript" async="" src="./node_files/js"></script><script async="" src="./node_files/analytics.js.download"></script><script src="./node_files/jquery-3.3.1.min.js.download"></script>
+	<script src="./node_files/popper.min.js.download"></script>
+	<script src="./node_files/bootstrap.min.js.download"></script>
+	<script src="./node_files/clipboard.min.js.download"></script>
+	<script>
+		$(document).ready(function() {
+			if (ClipboardJS.isSupported()) {
+				var clipboard = new ClipboardJS('.copy2cb');
+				clipboard.on('success', function (e) {
+					console.info('Trigger:', e.trigger);
+					var tip = $(e.trigger).next().children().first();
+					tip.show();
+					window.setTimeout(function() { tip.hide(); }, 1000);
+					e.clearSelection();
+				});
+			} else {
+				$(".copy2cb").hide();
+			}
+		});
+	</script>
+	<link rel="next" href="https://www.vectorlogo.zone/logos/github_node-glob/index.html">
+	<link rel="next" href="https://www.vectorlogo.zone/logos/nodebb/index.html">
+	<link rel="canonical" href="https://www.vectorlogo.zone/logos/nodejs/index.html">
+	<meta property="description" content="Vector logos for Node.js in uniform sizes and layouts in the standard SVG file format">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Node.js SVG Vector Logos">
+	<meta property="og:description" content="Vector logos for Node.js in uniform sizes and layouts in the standard SVG file format">
+	<meta property="og:image" content="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.png">
+	<meta property="og:site_name" content="VectorLogoZone">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Node.js SVG Vector Logos">
+	<meta name="twitter:description" content="Vector logos for Node.js in uniform sizes and layouts in the standard SVG file format">
+	<meta name="twitter:image" content="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.png">
+	<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "ImageObject",
+	  "contentUrl": "https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg",
+	  "description": "Vector (SVG) logo for Node.js",
+	  "name": "Node.js SVG Logo"
+	}
+	</script><meta name="referrer" content="unsafe-url">
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark navbar-static-top d-print-none" style="background-color:#1d8286;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.vectorlogo.zone/" title="Vector Logo Zone"><img src="./node_files/vlzlogo-white.svg" alt="Vector Logo Zone Logo" class="navbar-logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse navbar-right" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="https://www.vectorlogo.zone/about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.vectorlogo.zone/logos/index.html">A‑Z</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.vectorlogo.zone/support/index.html">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://github.com/VectorLogoZone/vectorlogozone/blob/main/CONTRIBUTING.md">Contribute</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.vectorlogo.zone/report/index.html">Reports</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.vectorlogo.zone/index.html" title="Search"><svg alt="search" style="width: 1em; height: 1em; vertical-align:-.125em;" aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><span class="d-none">Search</span></a></li>
+        </ul>
+    </div><!--/.navbar-collapse -->
+</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col"><div class="float-right icon-link-header" style="padding-top:20px;"><a title="Official Guidelines" href="https://github.com/nodejs/nodejs.org/tree/master/static/images"><i class="fa fa-certificate icon-link"></i></a><a title="Website" href="https://nodejs.org/?utm_source=vectorlogozone&amp;utm_medium=referrer"><i class="fal fa-globe icon-link"></i></a><a title="blog" href="https://nodejs.org/en/blog/?utm_source=vectorlogozone&amp;utm_medium=referrer"><i class="fas fa-rss-square icon-link"></i></a><a title="codehost" href="https://github.com/nodejs?utm_source=vectorlogozone&amp;utm_medium=referrer"><i class="far fa-code-branch icon-link"></i></a><a title="twitter" href="https://x.com/nodejs?utm_source=vectorlogozone&amp;utm_medium=referrer"><i class="fab fa-twitter icon-link"></i></a><a title="wikipedia" href="https://en.wikipedia.org/wiki/Node.js?utm_source=vectorlogozone&amp;utm_medium=referrer"><i class="fab fa-wikipedia-w icon-link"></i></a><a class="btn btn-secondary btn-xs" href="https://www.vectorlogo.zone/logos/github_node-glob/index.html" title="node-glob Logos"><i class="fa fa-caret-left"></i><span class="d-none d-md-inline"> node-glob</span></a>&nbsp;<a class="btn btn-secondary btn-xs" href="https://www.vectorlogo.zone/logos/nodebb/index.html" title="NodeBB Logos"><span class="d-none d-md-inline">NodeBB </span><i class="fa fa-caret-right"></i></a></div>
+				<h1>Node.js</h1>
+				
+
+			</div><!--/col-->
+		</div><!--/row--><div class="row"><div class="col">
+<table class="table table-striped border-bottom">
+	<thead>
+		<tr>
+			<th class="d-none d-md-table-cell">&nbsp;</th>
+			<th class="d-none d-sm-table-cell">Name</th>
+			<th>Image</th>
+		</tr>
+	</thead>
+	<tbody>
+
+		<tr>
+			<td class="d-none d-md-table-cell" style="white-space:nowrap;vertical-align:middle;">
+				<a class="btn btn-secondary btn-sm" href="https://svg-viewer.fileformat.info/view.html?url=https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg&amp;zoom=max&amp;backUrl=https://www.vectorlogo.zone/logos/nodejs/index.html&amp;backText=Return+to+VectorLogoZone" title="preview" rel="nofollow"><i class="far fa-eye"></i></a>
+				<a class="btn btn-secondary btn-sm" download="nodejs-ar21.svg" href="./node_files/nodejs-ar21.svg" title="Download"><i class="fa fa-download"></i></a>
+				<button class="btn btn-secondary btn-sm copy2cb" data-clipboard-text="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" href="#" title="Copy URL to Clipboard" rel="nofollow"><i class="far fa-clipboard"></i></button>
+				<div style="position:relative;display:inline-block;"><button class="btn btn-primary btn-sm copy2tip" style="position:absolute;left:0;right:0;">Copied to Clipboard</button>
+				<a class="btn btn-secondary btn-sm" href="https://www.vectorlogo.zone/util/convert_to_png.html?svg=/logos/nodejs/nodejs-ar21.svg" title="Convert to PNG" rel="nofollow"><i class="fa fa-exchange"></i></a>
+				</div>
+			</td>
+			<td class="d-none d-sm-table-cell" style="white-space:nowrap;vertical-align:middle;">
+				
+					Rectangle
+					
+					
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			
+			
+			
+			</td>
+			<td><a href="https://svg-viewer.fileformat.info/view.html?url=https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg&amp;zoom=max&amp;backUrl=https://www.vectorlogo.zone/logos/nodejs/index.html&amp;backText=Return+to+VectorLogoZone" rel="nofollow"><img alt="Vector (.svg) logo for Node.js: Rectangle" src="./node_files/nodejs-ar21.svg" style="height:120px;"></a></td>
+		</tr>
+
+		<tr>
+			<td class="d-none d-md-table-cell" style="white-space:nowrap;vertical-align:middle;">
+				<a class="btn btn-secondary btn-sm" href="https://svg-viewer.fileformat.info/view.html?url=https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21~bgwhite.svg&amp;zoom=max&amp;backUrl=https://www.vectorlogo.zone/logos/nodejs/index.html&amp;backText=Return+to+VectorLogoZone" title="preview" rel="nofollow"><i class="far fa-eye"></i></a>
+				<a class="btn btn-secondary btn-sm" download="nodejs-ar21~bgwhite.svg" href="./node_files/nodejs-ar21~bgwhite.svg" title="Download"><i class="fa fa-download"></i></a>
+				<button class="btn btn-secondary btn-sm copy2cb" data-clipboard-text="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21~bgwhite.svg" href="#" title="Copy URL to Clipboard" rel="nofollow"><i class="far fa-clipboard"></i></button>
+				<div style="position:relative;display:inline-block;"><button class="btn btn-primary btn-sm copy2tip" style="position:absolute;left:0;right:0;">Copied to Clipboard</button>
+				<a class="btn btn-secondary btn-sm" href="https://www.vectorlogo.zone/util/convert_to_png.html?svg=/logos/nodejs/nodejs-ar21~bgwhite.svg" title="Convert to PNG" rel="nofollow"><i class="fa fa-exchange"></i></a>
+				</div>
+			</td>
+			<td class="d-none d-sm-table-cell" style="white-space:nowrap;vertical-align:middle;">
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			
+				ar21~bgwhite
+			
+			
+			
+			</td>
+			<td><a href="https://svg-viewer.fileformat.info/view.html?url=https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21~bgwhite.svg&amp;zoom=max&amp;backUrl=https://www.vectorlogo.zone/logos/nodejs/index.html&amp;backText=Return+to+VectorLogoZone" rel="nofollow"><img alt="Alternate image for Node.js" src="./node_files/nodejs-ar21~bgwhite.svg" style="height:120px;"></a></td>
+		</tr>
+
+		<tr>
+			<td class="d-none d-md-table-cell" style="white-space:nowrap;vertical-align:middle;">
+				<a class="btn btn-secondary btn-sm" href="https://svg-viewer.fileformat.info/view.html?url=https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg&amp;zoom=max&amp;backUrl=https://www.vectorlogo.zone/logos/nodejs/index.html&amp;backText=Return+to+VectorLogoZone" title="preview" rel="nofollow"><i class="far fa-eye"></i></a>
+				<a class="btn btn-secondary btn-sm" download="nodejs-horizontal.svg" href="./node_files/nodejs-horizontal.svg" title="Download"><i class="fa fa-download"></i></a>
+				<button class="btn btn-secondary btn-sm copy2cb" data-clipboard-text="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg" href="#" title="Copy URL to Clipboard" rel="nofollow"><i class="far fa-clipboard"></i></button>
+				<div style="position:relative;display:inline-block;"><button class="btn btn-primary btn-sm copy2tip" style="position:absolute;left:0;right:0;">Copied to Clipboard</button>
+				<a class="btn btn-secondary btn-sm" href="https://www.vectorlogo.zone/util/convert_to_png.html?svg=/logos/nodejs/nodejs-horizontal.svg" title="Convert to PNG" rel="nofollow"><i class="fa fa-exchange"></i></a>
+				</div>
+			</td>
+			<td class="d-none d-sm-table-cell" style="white-space:nowrap;vertical-align:middle;">
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					Horizontal
+					
+					
+					
+				
+			
+				
+			
+				
+			
+			
+			
+			
+			</td>
+			<td><a href="https://svg-viewer.fileformat.info/view.html?url=https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg&amp;zoom=max&amp;backUrl=https://www.vectorlogo.zone/logos/nodejs/index.html&amp;backText=Return+to+VectorLogoZone" rel="nofollow"><img alt="Vector (.svg) logo for Node.js: Horizontal" src="./node_files/nodejs-horizontal.svg" style="max-width:100%"></a></td>
+		</tr>
+
+		<tr>
+			<td class="d-none d-md-table-cell" style="white-space:nowrap;vertical-align:middle;">
+				<a class="btn btn-secondary btn-sm" href="https://svg-viewer.fileformat.info/view.html?url=https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg&amp;zoom=max&amp;backUrl=https://www.vectorlogo.zone/logos/nodejs/index.html&amp;backText=Return+to+VectorLogoZone" title="preview" rel="nofollow"><i class="far fa-eye"></i></a>
+				<a class="btn btn-secondary btn-sm" download="nodejs-icon.svg" href="./node_files/nodejs-icon.svg" title="Download"><i class="fa fa-download"></i></a>
+				<button class="btn btn-secondary btn-sm copy2cb" data-clipboard-text="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" href="#" title="Copy URL to Clipboard" rel="nofollow"><i class="far fa-clipboard"></i></button>
+				<div style="position:relative;display:inline-block;"><button class="btn btn-primary btn-sm copy2tip" style="position:absolute;left:0;right:0;">Copied to Clipboard</button>
+				<a class="btn btn-secondary btn-sm" href="https://www.vectorlogo.zone/util/convert_to_png.html?svg=/logos/nodejs/nodejs-icon.svg" title="Convert to PNG" rel="nofollow"><i class="fa fa-exchange"></i></a>
+				</div>
+			</td>
+			<td class="d-none d-sm-table-cell" style="white-space:nowrap;vertical-align:middle;">
+				
+			
+				
+					Icon
+					
+					
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			
+			
+			
+			</td>
+			<td><a href="https://svg-viewer.fileformat.info/view.html?url=https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg&amp;zoom=max&amp;backUrl=https://www.vectorlogo.zone/logos/nodejs/index.html&amp;backText=Return+to+VectorLogoZone" rel="nofollow"><img alt="Vector (.svg) logo for Node.js: Icon" src="./node_files/nodejs-icon.svg" style="height:120px;"></a></td>
+		</tr>
+
+	</tbody>
+</table>
+<p>
+	<a class="btn btn-secondary" href="https://github.com/VectorLogoZone/vectorlogozone/commits/main/www/logos/nodejs">
+		<i class="fa fa-history"></i>
+		View history
+	</a>
+</p>
+</div></div>
+<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<h2 class="scriptonly" id="uploadheader">Community Contributions</h2>
+<div class="logo-container scriptonly" id="uploadresults"><a href="https://upload.vectorlogo.zone/logos/nodejs/images/eca9ff97-5734-46c4-b8a1-621819eaeaa9.html"><img src="./node_files/eca9ff97-5734-46c4-b8a1-621819eaeaa9.svg" style="max-width: 270px; height: 90px;"></a><a href="https://upload.vectorlogo.zone/logos/nodejs/images/7bd728ca-9a92-4137-9792-dfb1b41b8ce7.html"><img src="./node_files/7bd728ca-9a92-4137-9792-dfb1b41b8ce7.svg" style="max-width: 270px; height: 90px;"></a><a href="https://upload.vectorlogo.zone/logos/nodejs/images/f19ba471-7ee7-47fa-a9b5-4c6ecfd3f23d.html"><img src="./node_files/f19ba471-7ee7-47fa-a9b5-4c6ecfd3f23d.svg" style="max-width: 270px; height: 90px;"></a></div>
+<p class="scriptonly" id="uploadbutton"><a class="btn btn-outline-primary" href="https://upload.vectorlogo.zone/logos/nodejs/index.html">Contribute a logo!</a></p>
+<script>
+    $(document).ready(function () {
+        if (navigator && navigator.userAgent && navigator.userAgent.toUpperCase().indexOf('GOOGLEBOT') >= 0) {
+            $("#uploadheader").remove();
+            $("#uploadresults").remove();
+            $("#uploadbutton").remove();
+            return;
+        } else {
+            console.log(navigator.userAgent);
+        }
+        $.ajax({
+            dataType: "jsonp",
+            error: function (xhr, status, err) {
+                var content = $("#uploadresults").empty();
+                content.append($("<div>").addClass("alert").addClass("alert-danger").text(err));
+                console.error("ERROR: " + status, err);
+            },
+            method: "GET",
+            success: function (data, status, xhr) {
+                console.log("data=" + JSON.stringify(data));
+                var content = $("#uploadresults").empty();
+                if (!data.success) {
+                    content.append($("<div>").addClass("alert").addClass("alert-warning").text(data.message));
+                }
+                else {
+                    for (var image of data.images) {
+                        console.log(image);
+                        content.append($("<a>").attr("href", image.url).append($("<img>").attr("src", image.src || image.image).css("max-width", "270px").css("height", "90px")));
+                    }
+                }
+            },
+            timeout: 15000,
+            url: "https://upload.vectorlogo.zone/logos/nodejs/pending.json"
+        });
+    });
+</script>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<p>Find alternatives:
+    <a href="https://logosear.ch/search.html?q=Node.js" title="Search on Logo Search"><img alt="Logo Search logo" class="searchlogo" src="./node_files/favicon.svg"></a>
+    <a href="https://commons.wikimedia.org/w/index.php?search=Node.js+filemime%3Asvg" title="Search on Wikimedia Commons"><img alt="Wikipedia logo" class="searchlogo" src="./node_files/wikipedia-tile.svg"></a>
+    <a href="https://www.google.com/search?tbm=isch&amp;tbs=ift:svg&amp;q=Node.js" rel="nofollow" title="Search with Google Image Search"><img alt="Google logo" class="searchlogo" src="./node_files/google-tile.svg"></a>
+</p>
+
+			</div>
+		</div><div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<p>Share: 
+    <a href="https://simpleshare.dev/go?site=facebook&amp;url=https%3A%2F%2Fwww.vectorlogo.zone%2Flogos%2Fnodejs%2Findex.html&amp;text=Node.js+Logo&amp;ga=UA-328425-25" rel="nofollow" title="share on facebook" c=""><img alt="share on facebook" class="sharelogo" src="./node_files/facebook-tile.svg"></a>
+
+    <a href="https://simpleshare.dev/go?site=twitter&amp;url=https%3A%2F%2Fwww.vectorlogo.zone%2Flogos%2Fnodejs%2Findex.html&amp;text=Node.js+Logo&amp;ga=UA-328425-25" rel="nofollow" title="share on twitter" c=""><img alt="share on twitter" class="sharelogo" src="./node_files/twitter-tile.svg"></a>
+
+    <a href="https://simpleshare.dev/go?site=pinterest&amp;url=https%3A%2F%2Fwww.vectorlogo.zone%2Flogos%2Fnodejs%2Findex.html&amp;text=Node.js+Logo&amp;ga=UA-328425-25" rel="nofollow" title="share on pinterest" c=""><img alt="share on pinterest" class="sharelogo" src="./node_files/pinterest-tile.svg"></a>
+
+    <a href="https://simpleshare.dev/go?site=tumblr&amp;url=https%3A%2F%2Fwww.vectorlogo.zone%2Flogos%2Fnodejs%2Findex.html&amp;text=Node.js+Logo&amp;ga=UA-328425-25" rel="nofollow" title="share on tumblr" c=""><img alt="share on tumblr" class="sharelogo" src="./node_files/tumblr-tile.svg"></a>
+
+    <a href="https://simpleshare.dev/go?site=reddit&amp;url=https%3A%2F%2Fwww.vectorlogo.zone%2Flogos%2Fnodejs%2Findex.html&amp;text=Node.js+Logo&amp;ga=UA-328425-25" rel="nofollow" title="share on reddit" c=""><img alt="share on reddit" class="sharelogo" src="./node_files/reddit-tile.svg"></a>
+
+</p>
+
+
+
+			</div>
+		</div><div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<p> Tags: <a class="badge badge-secondary" href="https://www.vectorlogo.zone/logos/tags.html#javascript">JavaScript</a> <a class="badge badge-secondary" href="https://www.vectorlogo.zone/logos/tags.html#programming_library">Programming Libraries</a></p>
+			</div>
+		</div><div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<script async="" src="./node_files/f.txt"></script>
+<!-- Responsive for VectorLogoZone -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6975096118196151" data-ad-slot="1537213079" data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+			</div>
+		</div><hr><footer class="d-print-none">
+	<p class="small text-muted text-center">
+        Follow:
+        <a href="https://logo-of-the-day.vectorlogo.zone/" title="Logo of the day"><img alt="Logo of the day" src="./node_files/favicon(1).svg" class="social-footer"></a>
+        <a href="https://www.github.com/VectorLogoZone/vectorlogozone" title="Fork VectorLogoZone on Github"><img alt="Github" src="./node_files/github-tile.svg" class="social-footer"></a>
+        <a href="https://www.facebook.com/vectorlogozone" title="Follow VectorLogoZone on Facebook"><img alt="Facebook" src="./node_files/facebook-tile.svg" class="social-footer"></a>
+        <a rel="me" href="https://botsin.space/@VectorLogoZone" title="Follow VectorLogoZone on Mastodon"><img alt="Mastodon" src="./node_files/joinmastodon-tile.svg" class="social-footer"></a>
+        | <a href="https://validator.w3.org/check/referer">Validate HTML</a>
+    </p>
+</footer>
+</div><!--/container--><!-- Google Analytics -->
+<script>
+    var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+    if (dnt != "1" && dnt != "yes") {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-328425-25', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+    } else {
+        console.debug("Respecting Do-Not-Track, not loading analytics. See https://www.paulfurley.com/google-analytics-dnt/");
+    }
+</script>
+<!-- End Google Analytics --><!-- Cloudflare Pages Analytics --><script defer="" src="./node_files/beacon.min.js.download" data-cf-beacon="{&quot;token&quot;: &quot;0c2ef1f682f04b178b0587c07d7a92ab&quot;}"></script><!-- Cloudflare Pages Analytics -->
+
+</body></html>
