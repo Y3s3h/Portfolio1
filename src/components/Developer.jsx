@@ -31,10 +31,22 @@ const Developer = ({ animationName = 'idle', ...props }) => {
     group,
   );
 
+  // useEffect(() => {
+  //   actions[animationName].reset().fadeIn(0.5).play();
+  //   return () => actions[animationName].fadeOut(0.5);
+  // }, [animationName]);
   useEffect(() => {
-    actions[animationName].reset().fadeIn(0.5).play();
-    return () => actions[animationName].fadeOut(0.5);
-  }, [animationName]);
+    const action = actions[animationName];
+
+    if (!action) {
+      console.warn('Animation not found:', animationName);
+      return;
+    }
+
+    action.reset().fadeIn(0.5).play();
+
+    return () => action.fadeOut(0.5);
+  }, [animationName, actions]);
 
   return (
     <group ref={group} {...props} dispose={null}>
